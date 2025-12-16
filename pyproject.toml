@@ -20,3 +20,10 @@ gmao_image_generator = { path = ".", editable = true }
 
 [tool.pixi.dependencies]
 python = ">=3.14.2,<3.15"
+
+[dependency-groups]
+dev = ["ipykernel"]
+
+[tool.pixi.environments]
+default = { features = [], solve-group = "default" }
+dev = { features = ["dev"], solve-group = "default" }
