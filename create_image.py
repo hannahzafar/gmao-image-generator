@@ -2,7 +2,8 @@
 
 from hybig import create_browse
 
-geotiff_path = "micasa-cog/monthly/2001/MiCASA_v1_NEE_x3600_y1800_monthly_200101.tif"
+# geotiff_path = "micasa-cog/monthly/2001/MiCASA_v1_NEE_x3600_y1800_monthly_200101.tif"
+geotiff_path = "test-images/MiCASA_v1_NEE_x3600_y1800_monthly_200101.tif"
 results = create_browse(
     geotiff_path,
     {
