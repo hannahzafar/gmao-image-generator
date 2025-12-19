@@ -13,6 +13,6 @@ results = create_browse(
             "x": {"min": -180, "max": 180},
             "y": {"min": -90, "max": 90},
         },
-        "scale_size": {"x": 0.5, "y": 0.5},
+        "scale_size": {"x": 0.005, "y": 0.005},
     },
 )

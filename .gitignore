@@ -3,5 +3,5 @@
 .pixi
 *.egg-info
 micasa-cog
-test-images/
+test-images*/
 *.DS_Store
