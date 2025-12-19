@@ -4,3 +4,4 @@
 *.egg-info
 micasa-cog
 test-images/
+*.DS_Store
